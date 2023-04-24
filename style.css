@@ -1,0 +1,35 @@
+header{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    margin: 16px 150px;
+}
+
+h3{
+    margin-top: 2px;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+a{
+    border: 2px solid orange;
+    height: 200px;
+    width: 150px;
+
+    text-align: center;
+
+    cursor: pointer;
+}
